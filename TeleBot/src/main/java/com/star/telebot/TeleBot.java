@@ -41,14 +41,14 @@ public class TeleBot extends TelegramLongPollingBot{
     
     public static void main(String[] args) throws TelegramApiException {
        TeleBot bot = new TeleBot();
-       //bot.execute(SendMessage.builder().chatId("1208934466").text("Go fuck yourself!!").build());
+       //bot.execute(SendMessage.builder().chatId("1208934466").text("MMM").build());
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
         telegramBotsApi.registerBot(bot);
     }
 
     @Override
     public String getBotToken() {
-        return "5044648950:AAH28aUN0aqQOz1-iXGbl_3b9yPX3eFA5RE";
+        return "********************";
     }
 
     
